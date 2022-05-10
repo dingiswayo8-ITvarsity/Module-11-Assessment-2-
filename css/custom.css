@@ -1,0 +1,239 @@
+body{
+  background-color: #faf6f4;
+  color: #333;
+  font-family: helvetica, Helvetica,Arial,sans-serif;
+}
+.carousel-caption{
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    left:0;
+    bottom: 0;
+    padding-bottom: 2rem;
+    padding-left: 2rem;
+}
+
+.card {
+  margin: 2rem
+  
+}
+
+.section-divider{ 
+    margin: 3rem 0;
+    align:left;
+    width: 70%;
+
+}
+#sidebar{
+  float: right;
+  width: 25%;
+  padding-top: 15%;
+  
+}
+.container{
+  padding-top: 60px;
+}
+
+.container a {
+ color: #be1616;
+ font-size: large;
+ text-decoration: none;
+}
+.page{
+  min-height: 400px;
+  padding: 30px;
+
+}
+a{
+  text-decoration: none;
+  color: #9a9c9e;
+}
+a:hover{
+  text-decoration: none;
+  color: #be1616;
+}
+
+
+#copyright{
+  width: 100%;
+  height: 130px;
+  text-align: center;
+  background-color: #343a40;
+  padding-top: 55px;
+  clear: both;
+}
+
+#copyright p{
+  font-size: 12px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+
+.blog-post{
+  float: left;
+  width: 70%;
+  padding-top:25px ;
+}
+
+.blog-post p {
+  font-size: 20px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  padding: 10px;
+
+}
+.blog-post h2{
+  text-align: center;
+  font-size: 50px;
+}
+.blog-post img{
+  width: 50%;
+}
+
+
+
+.styled{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+
+.col-md-7{
+  padding-top: 50px;
+  font-size: 20px;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.contactImg{
+  width: 100%;
+}
+
+.contact{
+  
+    width: 70%;
+    height:100%;
+
+  padding: 10px;
+  border: #be1616 solid 2px;
+  margin: 15%;
+}
+#emailHelp{
+
+  color: #5a5a5a;
+}
+.btn{
+  background-color: rgb(5, 5, 24);
+ margin-left: 41%;
+}
+
+#socials{
+ margin:25% ;
+  
+}
+
+.about{
+  padding: 30px;
+}
+
+@media (max-width: 1200px) {
+ 
+  .contact{
+    width: 80%;
+    height:100%;
+  }
+  
+
+}
+
+@media (max-width: 992px) {
+ 
+  .search{
+    display: none;
+  }
+  .blog-post img{
+    width: 100%;
+  }
+  .contact{
+    width: 80%;
+    height:100%;
+  }
+  
+
+}
+
+
+@media (max-width: 768px) {
+  .feature-heading {
+    margin-top: 10rem;
+  }
+  .search{
+    display: none;
+  }
+  .blog-post img{
+    width: 100%;
+  }
+  .contact{
+    width: 80%;
+    height:100%;
+  }
+
+  
+
+}
+
+@media (max-width: 576px) {
+    .carouselImg {
+        display: none;
+    }
+    
+    .search{
+      display: none;
+    }
+    #sidebar{
+      float: none;
+      margin-left: auto;
+      margin-right: auto;
+     
+    }
+    .blog-post img{
+      width: 100%;
+    }
+    .contact{
+      width: 80%;
+      height:100%;
+    }
+    .btn{
+      background-color: rgb(221, 5, 5);
+     margin-left: 35%;
+     color: black;
+    }
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
